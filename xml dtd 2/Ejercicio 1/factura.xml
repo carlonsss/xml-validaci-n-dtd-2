@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+Nombre: Carlos Gil
+Curso: [Asir] 
+Fecha: [3/4/2025] 
+Ejercicio: [Factura electrónica] 
+-->
+<!DOCTYPE factura SYSTEM "factura.dtd">
+<factura numero="F1222" fecha="2025-03-03">
+    <datos-emisor>
+        <nombre>Librería Madrid Centro</nombre>
+        <cif>A12348739</cif>
+        <telefono>912347678</telefono>
+    </datos-emisor>
+    <datos-cliente>
+        <nombre>Biblioteca Nacional</nombre>
+        <cif>B123901534</cif>
+        <telefono>987630871</telefono>
+    </datos-cliente>
+    <detalle-factura importe="200.00">
+        <linea codigo-articulo="L101" tipo="Libro">
+            <descripcion>El Principito</descripcion>
+            <cantidad>3</cantidad>
+            <pvp>10.00</pvp>
+        </linea>
+        <linea codigo-articulo="D012" tipo="DVD">
+            <descripcion>Película de deporte</descripcion>
+            <cantidad>2</cantidad>
+            <pvp>29.00</pvp>
+            <oferta />
+        </linea>
+    </detalle-factura>
+</factura>

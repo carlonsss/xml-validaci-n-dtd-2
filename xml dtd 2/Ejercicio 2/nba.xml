@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+Nombre: Carlos Gil
+Curso: [Asir] 
+Fecha: [3/4/2025] 
+Ejercicio: [Nba] 
+-->
+<!DOCTYPE Equiposnba SYSTEM "nba.dtd">
+<EquiposNBA>
+    <equipo conferencia="Este">
+        <nombre>Boston Celtics</nombre>
+        <titulos>17</titulos>
+        <posicion>1</posicion>
+        <quinteto>Tatum, Brown, Holiday, Porzingis, Horford</quinteto>
+    </equipo>
+    <equipo conferencia="Oeste">
+        <nombre>Los Angeles Lakers</nombre>
+        <titulos>17</titulos>
+        <posicion>5</posicion>
+        <quinteto>LeBron, Doncic, Finney-Smith, Reaves, Hachimura</quinteto>
+    </equipo>
+</EquiposNBA>
